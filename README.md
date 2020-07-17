@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Activity Manager
 
 Creators: Or ganzian, Dima khmelev, Yehonatan Negbi, Orpaz Josheph
@@ -26,3 +27,7 @@ To run this project, you have to:
 
 
 ```
+=======
+# Activity-Manager
+Java project
+>>>>>>> da4b32ee9496da75347e706e9947a2dea5469836
