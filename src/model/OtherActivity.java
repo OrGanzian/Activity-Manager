@@ -16,12 +16,7 @@ public class OtherActivity extends Activity{
 		this.activityID=activityID;
 	}
 	
-	@Override
-	public String toString() {
-		return "OtherActivity [guide=" + guide + ", category=" + category + ", ageRange=" + ageRange + ", activityID="
-				+ activityID + ", name=" + name + ", location=" + location + ", currentCapicity=" + currentCapicity
-				+ ", maxCapicity=" + maxCapicity + ", price=" + price + ", description=" + description + "]";
-	}
+	
 
 	public String getGuide() {
 		return guide;
@@ -74,10 +69,10 @@ public class OtherActivity extends Activity{
 	
 	// methods
 
-	public void showActivityInfo() {
-		System.out.println("Activity ID: "+this.activityID+" | Location: "+this.location+" | Price: "+this.price+" | Guide: "+this.guide+" |Age Range: "+this.ageRange+" | Description: "+this.description);
+	@Override
+	public String toString() {
+		return "Activity ID: "+this.activityID+" | Name: "+this.name+" | Location: "+this.location+" | Price: "+this.price+" | Guide: "+this.guide+" |Age Range: "+this.ageRange+" | Description: "+this.description;
 	}
-	
 	
 
 }

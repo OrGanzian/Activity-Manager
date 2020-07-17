@@ -4,6 +4,10 @@ package model;
 public class HighSchoolActivity extends EducationActivity {
 
 	
+
+
+
+
 	// attributes
 	private int studyUnits;
 	private String finalExam;
@@ -72,12 +76,12 @@ public class HighSchoolActivity extends EducationActivity {
 	
 	
 	// methods
-	public void showActivityInfo() {
-		System.out.println("Activity ID: "+this.activityID+" |Profession: "+this.getProfession()+" | Study Units: "+this.studyUnits+" | School association: "+this.schoolAssociation+" | Price: "+this.price+" | Teacher: "+this.getTeacher()+" | Location: "+this.location+" | Remote Class: "+this.getRemoteClass()+" | Bagrut oriented: "+this.finalExam+" | Description: "+this.description);
+
+	
+	@Override
+	public String toString() {
+		return "Activity ID: "+this.activityID+" |Name: "+this.getName()+" |Profession: "+this.getProfession()+" | Study Units: "+this.studyUnits+" | School association: "+this.schoolAssociation+" | Price: "+this.price+" | Teacher: "+this.getTeacher()+" | Location: "+this.location+" | Remote Class: "+this.getRemoteClass()+" | Bagrut oriented: "+this.finalExam+" | Description: "+this.description;
 	}
-	
-	
-	
 	
 
 	

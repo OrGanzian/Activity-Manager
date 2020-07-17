@@ -197,9 +197,11 @@ public class Main {
 		}
     	
 	    	
-	    	for (int i = 0; i < list.size(); i++) {
-			(list.get(i)).showActivityInfo();
+	    	for (OtherActivity otherActivity : list) {
+				System.out.println(otherActivity);
 			}
+	    	
+
 	    	
 	    	
 	    	System.out.println("\n");
@@ -218,11 +220,10 @@ List<HighSchoolActivity> list2 = new ArrayList<HighSchoolActivity>();
 		}
     	
 	    	
-	    	for (int i = 0; i < list2.size(); i++) {
-			(list2.get(i)).showActivityInfo();
+
+	    	for (HighSchoolActivity highSchoolActivity : list2) {
+				System.out.println(highSchoolActivity);
 			}
-	    	
-	    	
 	    	
 	    	System.out.println("\n");
 
@@ -242,10 +243,9 @@ List<ElementarySchoolActivity> list3 = new ArrayList<ElementarySchoolActivity>()
 		}
     	
 	    	
-	    	for (int i = 0; i < list3.size(); i++) {
-			(list3.get(i)).showActivityInfo();
-			}
-	    	
+	    for (ElementarySchoolActivity elementarySchoolActivity : list3) {
+			System.out.println(elementarySchoolActivity);
+		}
 	    	
 	    	
 	    	

@@ -21,6 +21,7 @@ public class ElementarySchoolActivity extends EducationActivity {
 		
 	}
 
+	
 	public ElementarySchoolActivity(int id) {
 		super();
 		this.activityID=id;
@@ -70,13 +71,11 @@ public class ElementarySchoolActivity extends EducationActivity {
 	
 	// methods
 	
-	public void showActivityInfo() {
-		System.out.println("Activity ID: "+this.activityID+" |Profession: "+this.getProfession()+" | Teacher: "+this.getTeacher()+" | Reamote Class: "+this.getRemoteClass()+" | Price: "+this.price+" | Transportation: "+this.transport+" | Location: "+this.location+" | Accessibility: "+this.getAccessable()+" | Certification: "+this.certification+" | Description: "+this.description);
-
+	
+	@Override
+	public String toString() {
+		return "Activity ID: "+this.activityID+" |Name: "+this.getName()+" |Profession: "+this.getProfession()+" | Teacher: "+this.getTeacher()+" | Reamote Class: "+this.getRemoteClass()+" | Price: "+this.price+" | Transportation: "+this.transport+" | Location: "+this.location+" | Accessibility: "+this.getAccessable()+" | Certification: "+this.certification+" | Description: "+this.description;
 	}
-	
-	
-	
 	
 	
 
