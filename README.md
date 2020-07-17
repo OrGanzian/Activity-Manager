@@ -1,10 +1,10 @@
 
 ## Activity Manager
 
-Creators: Or ganzian, Dima khmelev, Yehonatan Negbi, Orpaz Josheph
+Creator: Or ganzian.
 
 ## General info
-This project is our final project at 'Software engineering' course at HIT.
+This project is a final project at 'Software engineering' course at HIT.
 The Activity Manager is a program to manage the activites of any organization like a municipality or any other institution that offer activities and want to have an organized management.
 The Activity manger support user mode & admin mode.
 	
@@ -14,7 +14,7 @@ Project is created with:
 * SQLite
 * MVC architecture
 * Design Patterns: Factory, Singleton
-* Eclips
+* Eclipse
 * command-line interface
 	
 ## Setup
