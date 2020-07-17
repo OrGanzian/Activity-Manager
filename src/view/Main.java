@@ -78,12 +78,12 @@ public class Main {
 		    	User user=new User();
 		        System.out.print("Please Enter The mail: ");
 		        user.setEmail(input.next()); 
-		        System.out.print("\nPlease Enter The password: ");
+		        System.out.print("Please Enter The password: ");
 		        user.setPass(input.next()); 
 		        user = userController.signIn(user);
 		        
 		        if (user.getEmail().equals("non")) {
-			        System.out.print("LogIn Fail try again ");
+			        System.out.println("LogIn Fail try again ");
 		        	break;
 
 				}
@@ -96,12 +96,12 @@ public class Main {
 		    	Admin admin=new Admin();
 		        System.out.print("Please Enter The mail: ");
 		        admin.setEmail(input.next()); 
-		        System.out.print("\nPlease Enter The password: ");
+		        System.out.print("Please Enter The password: ");
 		        admin.setPass(input.next()); 
 		        admin = adminController.signIn(admin);
 		        
 		        if (admin.getEmail().equals("non")) {
-			        System.out.print("LogIn Fail try again ");
+			        System.out.println("LogIn Fail try again ");
 		        	break;
 				}
 		        
@@ -152,26 +152,26 @@ public class Main {
 	private void printHeader() {
 
         System.out.println("+-----------------------------------+");
-        System.out.println("|      Welcome to Or Activity          |");
+        System.out.println("|      Welcome to Activity          |");
         System.out.println("|        Manager Java App           |");
         System.out.println("+-----------------------------------+");
     }
 	
 	public void userMenu(User user) throws Exception
 	{
-		System.out.println("_______________________________________________ \n");
-        System.out.println("Hey " + user.getName()+ ",please make a choise!\n");
+		System.out.println("*************************************\n");
+        System.out.println("Hey " + user.getName().toUpperCase()+ ", please make a choise!\n");
         
         int choice;
 	    while(true){
 	      
-	        System.out.print("1.) show Other activities \n");
-	        System.out.print("2.) show high school activities\n");
-	        System.out.print("3.) show elemantry school activities\n");
-	        System.out.print("4.) register to activity by activityID\n");
-	        System.out.print("5.) watch activity review & rating by activityID\n");
-	        System.out.print("6.) write your own review and rate!\n");
-	        System.out.print("7.) contact us\n");
+	        System.out.print("1.) Show Other activities \n");
+	        System.out.print("2.) Show high school activities\n");
+	        System.out.print("3.) Show elemantry school activities\n");
+	        System.out.print("4.) Register to activity by activityID\n");
+	        System.out.print("5.) Watch activity review & rating by activityID\n");
+	        System.out.print("6.) Write your own review and rate!\n");
+	        System.out.print("7.) Contact us\n");
 	        System.out.print("8.) Exit\n");
 	        System.out.print("\nEnter Your Menu Choice: ");
 
