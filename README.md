@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Activity Manager
 
 Creators: Or ganzian, Dima khmelev, Yehonatan Negbi, Orpaz Josheph
