@@ -12,6 +12,7 @@ The Activity manger support user mode & admin mode.
 Project is created with:
 * Java
 * SQLite
+* Junit
 * MVC architecture
 * Design Patterns: Factory, Singleton
 * Eclipse
@@ -28,6 +29,3 @@ To run this project, you have to:
 
 ```
 =======
-# Activity-Manager
-Java project
->>>>>>> da4b32ee9496da75347e706e9947a2dea5469836
